@@ -1,5 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import ListScreen from './ListScreen';
+import MainScreen from './MainScreen';
+import TestScreen from './TestScreen';
+import ExerciseScreen from './ExerciseScreen';
 
 export default function App() {
   return (
@@ -9,6 +13,21 @@ export default function App() {
     </View>
   );
 }
+
+const navigator = createStackNavigator(
+  {
+      Main: MainScreen,
+      Test: TestScreen,
+      Exercise: ExerciseScreen,
+      List: ListScreen
+  },
+  {
+    intialRouteName: 'List',
+    defaultNavigatorOptions: {
+      title: 'App'
+    }
+  }
+)
 
 const styles = StyleSheet.create({
   container: {
