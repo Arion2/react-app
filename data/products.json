@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 16 Pro Max",
+        "category": "$1300",
+        "stock": "yes",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFGoXYqDvlz7lnjaGEz6H1v7vJtLekVHUVQ&s",
+        "description": "Lorem Ipsum test"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Note 24",
+        "category": "$1100",
+        "stock": "yes",
+        "image": "https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E3_TitaniumBlack_Lockup_1600x1200.jpg",
+        "description": "Lorem Ipsum test"
+    },
+    {
+        "id": 3,
+        "name": "Iphone 13 Pro Max",
+        "category": "$659",
+        "stock": "yes",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWaK0Wj2CoBdC-WVo1TIJ1AMMrjaZRaZgFvw&s",
+        "description": "Lorem Ipsum test"
+    }
+]
